@@ -5,10 +5,10 @@ Pod::Spec.new do |s|
   s.summary      = "SDWebImage的一个分类，菊花，渐变"
   s.homepage     = "https://github.com/ellmcz/UIImageView-SDWebImageTool"
   s.authors      = { "ellmcz" => "wqbs007@163.com" }
-  s.source       = { :git => "https://github.com/ellmcz/UIImageView-SDWebImageTool.git", :tag =>s.version.to_s }
+  s.source       = { :git => "https://github.com/ellmcz/UIImageView-SDWebImageTool.git", :tag =>s.version }
   s.platform     = :ios, '6.0'
   s.requires_arc = true
-  s.source_files = 'UIImageView+SDWebImageTool/*.{h,m}'
+  s.source_files = 'UIImageView+SDWebImageTool/**/*.{h,m}'
   s.framework ="UIKit"
   s.dependency "SDWebImage"
   
