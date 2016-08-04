@@ -9,6 +9,6 @@ s.authors      = { "ellmcz" => "wqbs007@163.com" }
 s.source       = { :git => "https://github.com/ellmcz/UIImageView-SDWebImageTool.git", :tag =>   "1.0" }
 s.platform     = :ios, '6.0'
 s.requires_arc = true
-s.source_files = 'SortProperty/*.{h,m}'
+s.source_files = 'UIImageView+SDWebImageTool/*.{h,m}'
 s.dependency="SDWebImage"
 end
